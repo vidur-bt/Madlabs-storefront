@@ -10,4 +10,33 @@
     --color-darker-gray: #8D8D8D;
     --color-black: #000000;
     --color-white: #FFFFFF;
+
+    --font-sans: "Sofia Pro", "sans-serif";
+    --font-display: "Satoshi", "sans-serif";
+}
+
+@layer base {
+    html, body{
+        --font-sans: "Sofia Pro", "sans-serif";
+    }
+
+    p, span, li, a, button, input, textarea, select, option, label {
+        --font-sans: "Sofia Pro", "sans-serif";
+    }
+
+    h1, h2, h3 {
+        --font-display: "Satoshi", "sans-serif";
+    }
+}
+
+@layer components {
+    .section-heading{
+        @apply font-sans text-[2rem] leading-[1.72] font-semibold text-black;
+    }
+}
+
+@layer utilities {
+    .text-3xl-custom {
+        @apply text-[2rem] leading-[1.72];
+    }
 }

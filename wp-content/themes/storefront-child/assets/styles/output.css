@@ -3,16 +3,16 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: "Sofia Pro", "sans-serif";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-black: #000000;
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-dark-gray: #979797;
   }
 }
 @layer base {
@@ -167,9 +167,6 @@
   .block {
     display: block;
   }
-  .bg-dark-gray {
-    background-color: var(--color-dark-gray);
-  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -178,8 +175,204 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .italic {
+    font-style: italic;
+  }
+}
+@layer base {
+  html, body {
+    --font-sans: "Sofia Pro", "sans-serif";
+  }
+  p, span, li, a, button, input, textarea, select, option, label {
+    --font-sans: "Sofia Pro", "sans-serif";
+  }
+  h1, h2, h3 {
+    --font-display: "Satoshi", "sans-serif";
+  }
+}
+@layer components {
+  .section-heading {
+    font-family: var(--font-sans);
+    font-size: 2rem;
+    --tw-leading: 1.72;
+    line-height: 1.72;
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-black);
+  }
+}
+@layer utilities {
+  .text-3xl-custom {
+    font-size: 2rem;
+    --tw-leading: 1.72;
+    line-height: 1.72;
+  }
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sofia Pro Regular'), url('../fonts/sofia-pro/Sofia Pro Regular Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Sofia Pro Italic'), url('../fonts/sofia-pro/Sofia Pro Regular Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Sofia Pro ExtraLight'), url('../fonts/sofia-pro/Sofia Pro ExtraLight Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Sofia Pro UltraLight'), url('../fonts/sofia-pro/Sofia Pro UltraLight Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Sofia Pro ExtraLight Italic'), url('../fonts/sofia-pro/Sofia Pro ExtraLight Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Sofia Pro UltraLight Italic'), url('../fonts/sofia-pro/Sofia Pro UltraLight Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Sofia Pro Light'), url('../fonts/sofia-pro/Sofia Pro Light Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Sofia Pro Light Italic'), url('../fonts/sofia-pro/Sofia Pro Light Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Sofia Pro Medium'), url('../fonts/sofia-pro/Sofia Pro Medium Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Sofia Pro Medium Italic'), url('../fonts/sofia-pro/Sofia Pro Medium Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Sofia Pro SemiBold'), url('../fonts/sofia-pro/Sofia Pro Semi Bold Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Sofia Pro SemiBold Italic'), url('../fonts/sofia-pro/Sofia Pro Semi Bold Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Sofia Pro Bold'), url('../fonts/sofia-pro/Sofia Pro Bold Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Sofia Pro Bold Italic'), url('../fonts/sofia-pro/Sofia Pro Bold Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Sofia Pro Black'), url('../fonts/sofia-pro/Sofia Pro Black Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Sofia Pro Black Italic'), url('../fonts/sofia-pro/Sofia Pro Black Italic Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satoshi Regular'), url('../fonts/satoshi/Satoshi-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Satoshi Italic'), url('../fonts/satoshi/Satoshi-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Satoshi Light'), url('../fonts/satoshi/Satoshi-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Satoshi Light Italic'), url('../fonts/satoshi/Satoshi-LightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Satoshi Medium'), url('../fonts/satoshi/Satoshi-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Satoshi Medium Italic'), url('../fonts/satoshi/Satoshi-MediumItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Satoshi Bold'), url('../fonts/satoshi/Satoshi-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Satoshi Bold Italic'), url('../fonts/satoshi/Satoshi-BoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Satoshi Black'), url('../fonts/satoshi/Satoshi-Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Satoshi Black Italic'), url('../fonts/satoshi/Satoshi-BlackItalic.woff') format('woff');
 }
 @property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-leading {
   syntax: "*";
   inherits: false;
 }
@@ -187,6 +380,7 @@
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-font-weight: initial;
+      --tw-leading: initial;
     }
   }
 }
