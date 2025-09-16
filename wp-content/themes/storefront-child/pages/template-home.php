@@ -4,10 +4,19 @@
 ?>
 
 <!-- Hero Section -->
-<section class="splide bg-medium-gray min-h-[616px] rounded-3.5xl shadow-banner overflow-hidden relative">
+<section class="splide bg-gray min-h-[616px] rounded-3.5xl shadow-banner overflow-hidden relative">
     <div class="splide__track">
         <ul class="splide__list">
 			<li class="splide__slide bg-[url(../images/home-banner.png)] bg-cover bg-center flex items-center justify-center">
+                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[336px]">ELEVATE YOUR SENSES</h1>
+            </li>
+			<li class="splide__slide bg-[url(../images/home-banner.png)] bg-cover bg-center flex items-center justify-center">
+                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[336px]">ELEVATE YOUR SENSES</h1>
+            </li>
+			<li class="splide__slide bg-[url(../images/home-banner.png)] bg-cover bg-center flex items-center justify-center">
+                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[336px] w-">ELEVATE YOUR SENSES</h1>
+            </li>
+            <li class="splide__slide bg-[url(../images/home-banner.png)] bg-cover bg-center flex items-center justify-center">
                 <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 			<li class="splide__slide bg-[url(../images/home-banner.png)] bg-cover bg-center flex items-center justify-center">

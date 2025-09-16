@@ -32,6 +32,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-gray: #F2F2F2;
     --color-medium-gray: #D9D9D9;
     --radius-3\.5xl: 1.75rem;
     --tracking-wider-xl: 0.0675em;
@@ -388,6 +389,9 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-gray {
+    background-color: var(--color-gray);
+  }
   .bg-medium-gray {
     background-color: var(--color-medium-gray);
   }
@@ -559,6 +563,16 @@
   .placeholder\:text-black {
     &::placeholder {
       color: var(--color-black);
+    }
+  }
+  .hover\:scale-100 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 100%;
+        --tw-scale-y: 100%;
+        --tw-scale-z: 100%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
     }
   }
   .hover\:opacity-80 {
@@ -959,6 +973,21 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -997,6 +1026,9 @@
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-duration: initial;
       --tw-ease: initial;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-scale-z: 1;
       --tw-outline-style: solid;
     }
   }
