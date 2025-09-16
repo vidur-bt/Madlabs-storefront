@@ -8,24 +8,39 @@
     --color-gray-2: #E5E5E5;
     --color-dark-gray: #979797;
     --color-darker-gray: #8D8D8D;
+    --color-medium-gray: #D9D9D9;
     --color-black: #000000;
     --color-white: #FFFFFF;
 
+    --radius-3.5xl: 1.75rem;
+
+    --shadow-banner: 0px 4px 78.2px 0px #0000005C;
+
+    --tracking-wider-xl: 0.0675em;
+
+    --leading-13: 3.4425rem;
+
     --font-sans: "Sofia Pro", "sans-serif";
     --font-display: "Satoshi", "sans-serif";
+
+    --breakpoint-xl: initial;
+    --breakpoint-2xl: initial;
+    --breakpoint-desktop: 66.5625rem;
+
+    --container-desktop: 66.5625rem;
 }
 
 @layer base {
     html, body{
-        --font-sans: "Sofia Pro", "sans-serif";
+        font-family: var(--font-sans);
     }
 
     p, span, li, a, button, input, textarea, select, option, label {
-        --font-sans: "Sofia Pro", "sans-serif";
+        font-family: var(--font-sans);
     }
 
     h1, h2, h3 {
-        --font-display: "Satoshi", "sans-serif";
+        font-family: var(--font-display);
     }
 }
 

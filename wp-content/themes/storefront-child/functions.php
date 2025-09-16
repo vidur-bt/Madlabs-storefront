@@ -2,8 +2,15 @@
 
 function madlabs_enqueue_styles() {
     wp_enqueue_style( 'madlabs-style', get_stylesheet_directory_uri() . '/assets/styles/output.css', array() );
+    wp_enqueue_style( 'splide-min-css', get_stylesheet_directory_uri() . '/assets/styles/splide.min.css', array() );
+
+    wp_enqueue_script('splide-min-js',get_stylesheet_directory_uri() . '/assets/js/splide.min.js', ['jquery'], true);
 }
 add_action( 'wp_enqueue_scripts', 'madlabs_enqueue_styles' );
+
+function madlabs_enqueue_scripts(){
+
+}
 
 function custom_dequeue_storefront_styles() {
     wp_dequeue_style( 'storefront-style' );
