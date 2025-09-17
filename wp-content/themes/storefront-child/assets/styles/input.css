@@ -27,3 +27,7 @@
   opacity: 0.6;
   z-index: -1;
 }
+
+.mobile-menu-bar-icon-row-scrolled svg path{
+    fill: white;
+}
