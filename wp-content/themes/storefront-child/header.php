@@ -7,7 +7,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-black'); ?>>
+<body <?php body_class(); ?>>
 
 <!-- Mobile Menu Overlay -->
 <div id="mobile-menu" class="fixed inset-0 bg-white -z-50 opacity-0 transition-opacity ease-in-out duration-600 lg:hidden">

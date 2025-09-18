@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     drag: true,
     classes: {
       pagination:
-        "liquid-glass !absolute items-center h-fit !right-[107px] !top-1/2 -translate-y-1/2 !w-[38px]",
+        "liquid-glass !absolute items-center h-fit !left-[38px] lg:!left-auto !right-[107px] !top-1/2 -translate-y-1/2 w-[25px] lg:!w-[38px]",
     },
   });
   splide.mount();

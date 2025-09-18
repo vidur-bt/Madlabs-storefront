@@ -103,8 +103,8 @@
 </section>
 
 <!-- About Section -->
-<section class="bg-white py-14">
-    <div class="container">
+<section class="bg-white pt-32">
+    <div class="max-w-[1066px] mx-auto px-9 lg:px-0">
         <h4 class="text-sm-2 lg:text-2xl italic font-sans text-darker-gray mb-5.5">
             About Us - <span class="text-black font-semibold not-italic">Madlabs</span>
         </h4>
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="overflow-x-auto scroll-container mt-14.5">
-            <div class="flex gap-5">
+            <div class="flex gap-5 pb-5">
                 <?php 
                     foreach ($cards as $card) {
                         get_template_part('template-parts/flavours-cards', null, $card);
@@ -144,5 +144,34 @@
         </div>
     </div>
 </section>
+
+<!-- top shelf cannabis -->
+<section class="bg-white pt-13">
+    <div class="container">
+        <div class="space-y-7.5">
+            <h3 class="section-heading">Top shelf cannabis</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4.5 gap-y-5">
+                <div class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/vegetable-oil-background.png" alt="" class="w-full">
+                </div>
+                <div class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/spoon.png" alt="" class="w-full">
+                </div>
+                <div class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3rd-top-shelf.png" alt="" class="w-full">
+                </div>
+                <div class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/4th-top-shelf.png" alt="" class="w-full">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- mad merch -->
+<section class="pb-14 lg:pb-[106px]">
+    <?php get_template_part('template-parts/product-card-row'); ?>
+</section>
+
 
 <?php get_footer(); ?>
