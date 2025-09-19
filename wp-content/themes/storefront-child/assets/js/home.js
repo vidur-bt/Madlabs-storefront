@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var splide = new Splide(".splide", {
+  var splide = new Splide(".banner-splide", {
     direction: "ttb",
     height: "616px",
     arrows: false,

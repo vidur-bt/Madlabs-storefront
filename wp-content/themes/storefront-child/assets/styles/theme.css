@@ -14,6 +14,7 @@
     --color-white: #FFFFFF;
 
     --text-sm-2: 0.938rem; /* 15px */
+    --text-sm-3: 1.125rem; /* 18px */
     --text-lg-2: 1.25rem; /* 20px */
     --text-3.5: 2rem; /* 32px */
 
@@ -21,6 +22,8 @@
     --radius-3.5xl: 1.75rem; /* 28px */
 
     --shadow-banner: 0px 4px 78.2px 0px #0000005C;
+
+    --stroke-linecap-round: round;
 
     --tracking-wider-xl: 0.0675em;
 
@@ -49,6 +52,7 @@
 @layer base {
     html, body{
         font-family: var(--font-sans);
+        margin-top: 0 !important;
     }
 
     p, span, li, a, button, input, textarea, select, option, label {
@@ -72,5 +76,8 @@
 @layer utilities {
     .text-3xl-custom {
         @apply text-[2rem] leading-[1.72];
+    }
+    .stroke-linecap-round path{
+        stroke-linecap: var(--stroke-linecap-round);
     }
 }

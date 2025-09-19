@@ -27,7 +27,7 @@
 ?>
 
 <!-- Hero Section -->
-<section class="splide bg-gray min-h-[616px] shadow-banner overflow-hidden relative">
+<section class="splide banner-splide bg-gray min-h-[616px] shadow-banner overflow-hidden relative">
     <div class="splide__track">
         <ul class="splide__list">
 			<li class="splide__slide flex items-center justify-center relative">
@@ -169,8 +169,17 @@
 </section>
 
 <!-- mad merch -->
-<section class="pb-14 lg:pb-[106px]">
-    <?php get_template_part('template-parts/product-card-row'); ?>
+<section class="bg-white pt-13 pb-14 lg:pb-[106px]">
+    <div class="container">
+        <div class="space-y-7.5">
+            <h3 class="section-heading">Mad Merch</h3>
+            <div class="overflow-x-auto scroll-container lg:overflow-x-hidden">
+                <div class="grid grid-flow-col auto-cols-max gap-3.75 pb-5">
+                    <?php get_template_part('template-parts/product-card-normal'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

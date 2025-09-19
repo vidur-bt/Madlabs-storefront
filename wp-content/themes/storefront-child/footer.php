@@ -1,5 +1,5 @@
 
-
+</div>
 </main>
 
 <footer class="bg-black rounded-tl-3.5xl rounded-tr-3.5xl overflow-hidden pt-10 pb-7.5 lg:pt-14.25 lg:pb-11">

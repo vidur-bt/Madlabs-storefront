@@ -157,4 +157,5 @@
     </div>
 </header>
 
-<main class="lg:rounded-tl-3.5xl lg:rounded-tr-3.5xl overflow-hidden">
+<main class="bg-black">
+	<div class="lg:rounded-tl-3.5xl lg:rounded-tr-3.5xl overflow-hidden">

@@ -25,6 +25,20 @@ function madlabs_enqueue_scripts() {
         '1.0.0', // Script version (optional)
         true // Load in footer (true) or header (false)
     );
+    wp_enqueue_script(
+        'product-js', // Unique handle name
+        get_stylesheet_directory_uri() . '/assets/js/product.js', // Script URL
+        array('jquery'), // Dependencies (can be empty array if none)
+        '1.0.0', // Script version (optional)
+        true // Load in footer (true) or header (false)
+    );
+    wp_enqueue_script(
+        'tw-element-js', // Unique handle name
+        'https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1', // Script URL
+        array(), // Dependencies (can be empty array if none)
+        '1.0.0', // Script version (optional)
+        true // Load in footer (true) or header (false)
+    );
     
 }
 add_action('wp_enqueue_scripts', 'madlabs_enqueue_scripts');
