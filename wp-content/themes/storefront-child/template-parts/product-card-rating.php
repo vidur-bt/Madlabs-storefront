@@ -1,5 +1,5 @@
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -23,7 +23,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -47,7 +47,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -71,7 +71,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -95,7 +95,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -119,7 +119,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">
@@ -143,7 +143,7 @@
     </div>
 </div>
 <div class="splide__slide bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-[255px]">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
+    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[68px] lg:pb-[62px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-1.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
     <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-4.5 lg:pl-5">

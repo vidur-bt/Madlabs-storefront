@@ -1,24 +1,39 @@
 document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".product-rating-card-splide", {
-    perPage: 3,
-    focus: 0,
+    perPage: 4,
+    perMove: 1,
+    omitEnd: true,
+    type: "loop",
     pagination: true,
     arrows: false,
     gap: 37,
-    // arrowPath:
-    //   "M6.66663 16L25.3333 16M25.3333 16L16 6.66665M25.3333 16L16 25.3333",
-    // classes: {
-    //   arrows: "absolute -top-24 right-0 flex gap-4",
-    //   arrow:
-    //     "splide-custom-arrow static bg-black w-14.5 h-14.5 flex items-center justify-center rounded-full cusror-pointer [&_path]:stroke-white [&_path]:stroke-3 stroke-linecap-round",
-    // },
+    classes: {
+      pagination: "flex items-center justify-center gap-6 mt-8",
+      page: "bg-gray w-3.5 h-3.5 rounded-full [&.is-active]:bg-black",
+    },
+  });
+
+  var prevButton = document.getElementById("best-seller-arrow-prev");
+  var nextButton = document.getElementById("best-seller-arrow-next");
+
+  // Move to previous or next slide on button click
+  prevButton.addEventListener("click", function () {
+    splide.go("<");
+  });
+  nextButton.addEventListener("click", function () {
+    splide.go(">");
+  });
+
+  // Enable/disable buttons based on the current slide
+  splide.on("move", function (newIndex) {
+    prevButton.disabled = newIndex === 0;
+    nextButton.disabled = newIndex === splide.length - 1;
+  });
+
+  // Initialize button states when slider is mounted
+  splide.on("mounted", function () {
+    prevButton.disabled = true; // initial slide is first one
   });
 
   splide.mount();
-  document
-    .getElementById("best-seller-arrow-prev")
-    .addEventListener("click", () => splide.go("<"));
-  document
-    .getElementById("best-seller-arrow-next")
-    .addEventListener("click", () => splide.go(">"));
 });
