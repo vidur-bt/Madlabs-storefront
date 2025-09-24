@@ -5,7 +5,7 @@
 get_header();
 
 $dropdown = [
-    'title' => 'shop now',
+    'title' => 'shop all',
     'options' => [
         [
             'item' => 'best sellers'
@@ -23,7 +23,7 @@ $dropdown = [
 
 <!-- banner -->
 <section class="bg-white h-[370px] lg:h-[620px]">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/product-page-banner@2x.png" width="100%" height="620" alt="" class="w-full h-full object-cover rounded-bl-3.5xl rounded-br-3.5xl max-h-[370px] lg:max-h-[620px]">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/product-page-banner@4x.png" width="100%" height="620" alt="" class="w-full h-full object-cover rounded-bl-3.5xl rounded-br-3.5xl max-h-[370px] lg:max-h-[620px]">
 </section>
 
 <!-- dropdown -->
@@ -67,28 +67,28 @@ $dropdown = [
             <h3 class="section-heading">Latest Drops</h3>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-7">
                 <div class="relative bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/disposables.png" alt="" class="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/disposables@4x.png" alt="" class="">
                     <a href="" class="bg-black rounded-full text-xs lg:text-lg font-semibold text-white capitalize flex items-center justify-center min-w-[141px] h-[30px] lg:min-w-[219px] lg:h-[46px] w-fit absolute bottom-7 left-1/2 -translate-x-1/2 shadow-btn">
                         <span class="">Disposables</span>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/slider-arrow-next.svg" alt="" class="absolute right-3 w-4.5 h-4.5 lg:w-7 lg:h-7">
                     </a>
                 </div>
                 <div class="relative bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cartridges.png" alt="" class="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/cartridges@4x.png" alt="" class="">
                     <a href="" class="bg-black rounded-full text-xs lg:text-lg font-semibold text-white capitalize flex items-center justify-center min-w-[141px] h-[30px] lg:min-w-[219px] lg:h-[46px] w-fit absolute bottom-7 left-1/2 -translate-x-1/2 shadow-btn">
                         <span class="">cartridges</span>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/slider-arrow-next.svg" alt="" class="absolute right-3 w-4.5 h-4.5 lg:w-7 lg:h-7">
                     </a>
                 </div>
                 <div class="relative bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/concentrates.png" alt="" class="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/concentrates@4x.png" alt="" class="">
                     <a href="" class="bg-black rounded-full text-xs lg:text-lg font-semibold text-white capitalize flex items-center justify-center min-w-[141px] h-[30px] lg:min-w-[219px] lg:h-[46px] w-fit absolute bottom-7 left-1/2 -translate-x-1/2 shadow-btn">
                         <span class="">concentrates</span>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/slider-arrow-next.svg" alt="" class="absolute right-3 w-4.5 h-4.5 lg:w-7 lg:h-7">
                     </a>
                 </div>
                 <div class="relative bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/flowers.png" alt="" class="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/flowers@4x.png" alt="" class="">
                     <a href="" class="bg-black rounded-full text-xs lg:text-lg font-semibold text-white capitalize flex items-center justify-center min-w-[141px] h-[30px] lg:min-w-[219px] lg:h-[46px] w-fit absolute bottom-7 left-1/2 -translate-x-1/2 shadow-btn">
                         <span class="">flowers</span>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/slider-arrow-next.svg" alt="" class="absolute right-3 w-4.5 h-4.5 lg:w-7 lg:h-7">

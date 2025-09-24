@@ -27,7 +27,8 @@
 
     --stroke-linecap-round: round;
 
-    --tracking-wider-xl: 0.0675em;
+    --tracking-wider-xl: 0.0675em; /* 1.08px */
+    --tracking-negative: -0.068rem; /* -1.08px */
 
     --leading-normal: normal;
     --leading-13: 3.4425rem; /* 55.08px */
@@ -49,7 +50,8 @@
     --breakpoint-desktop: 66.5625rem;
 
     --container-desktop: 66.5625rem;
-    --container-2: 70.688rem;
+    --container-2: 70.688rem; /* 1031px */
+    --container-3: 72.25rem; /* 1056px */
 }
 
 @layer base {
@@ -74,8 +76,17 @@
     .container-2 {
         @apply max-w-2 mx-auto px-9 lg:px-0;
     }
+    .container-3{
+        @apply max-w-3 mx-auto px-9 lg:px-0;
+    }
+    .hero-title{
+        @apply text-[25px] lg:text-5xl text-center text-white font-black leading-13 lg:tracking-negative z-10 relative;
+    }
     .section-heading{
         @apply font-sans text-lg-2 lg:text-[2rem] text-center leading-[1.72] font-semibold text-black;
+    }
+    .black-btn-big{
+        @apply bg-black py-4 px-4.5 min-w-[255px] h-[58px] rounded-full flex justify-center items-center text-center text-white text-lg font-bold tracking-negative leading-[19px];
     }
 }
 

@@ -158,4 +158,4 @@
 </header>
 
 <main class="bg-black">
-	<div class="lg:rounded-tl-3.5xl lg:rounded-tr-3.5xl overflow-hidden">
+	<div class="bg-white lg:rounded-tl-3.5xl lg:rounded-tr-3.5xl overflow-hidden">

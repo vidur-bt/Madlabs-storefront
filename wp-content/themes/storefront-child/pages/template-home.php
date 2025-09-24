@@ -33,69 +33,69 @@
 			<li class="splide__slide flex items-center justify-center relative">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <!-- <img class="absolute w-full " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" alt=""> -->
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[212px] lg:max-w-[336px] z-10">ELEVATE YOUR SENSES</h1>
+                <!-- <img class="absolute w-full " src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" alt=""> -->
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 			<li class="splide__slide flex items-center justify-center">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[212px] lg:max-w-[336px] z-10">ELEVATE YOUR SENSES</h1>
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 			<li class="splide__slide flex items-center justify-center">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[212px] lg:max-w-[336px] z-10">ELEVATE YOUR SENSES</h1>
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
             <li class="splide__slide flex items-center justify-center">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[212px] lg:max-w-[336px] z-10">ELEVATE YOUR SENSES</h1>
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 			<li class="splide__slide flex items-center justify-center">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[212px] lg:max-w-[336px] z-10">ELEVATE YOUR SENSES</h1>
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 			<li class="splide__slide flex items-center justify-center">
                 <picture>
                     <!-- Desktop image (min-width: 769px) -->
-                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" />
+                    <source media="(min-width: 769px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" />
                     <!-- Mobile image (max-width: 768px) -->
                     <source media="(max-width: 768px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner.png" />
                     <!-- Fallback image for older browsers -->
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-banner-2@4x.png" class="absolute inset-0 w-full h-full object-cover transition-transform ease-in duration-300 hover:scale-[1.1]" alt="banner image" />
                 </picture>
-                <h1 class="text-5xl text-center italic font-black text-black leading-13 -tracking-wider-xl max-w-[336px] w-">ELEVATE YOUR SENSES</h1>
+                <h1 class="hero-title italic text-black max-w-[212px] lg:max-w-[336px]">ELEVATE YOUR SENSES</h1>
             </li>
 		</ul>
     </div>
@@ -119,8 +119,8 @@
                         everything they do.
                     </p>
                 </div>
-                <div class="">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hand-madlabs.png" alt="" class="lg:absolute lg:bottom-0">
+                <div class="flex justify-center">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hand-madlabs@4x.png" alt="" class="lg:absolute lg:bottom-0 lg:right-[52px] max-w-[242px]">
                 </div>
             </div>
             <div class="bg-gray rounded-2.5xl bg-[url(../images/map.png)] bg-cover bg-center py-9 lg:pt-9 lg:pb-8 px-11 flex flex-col justify-between gap-7.5">
@@ -151,18 +151,18 @@
         <div class="space-y-7.5">
             <h3 class="section-heading">Top shelf cannabis</h3>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4.5 gap-y-5">
-                <div class="bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/vegetable-oil-background.png" alt="" class="w-full">
-                </div>
-                <div class="bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/spoon.png" alt="" class="w-full">
-                </div>
-                <div class="bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3rd-top-shelf.png" alt="" class="w-full">
-                </div>
-                <div class="bg-gray rounded-2.5xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/4th-top-shelf.png" alt="" class="w-full">
-                </div>
+                <a href="#" class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/vegetable-oil-background@4x.png" alt="" class="w-full">
+                </a>
+                <a href="#" class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/spoon@4x.png" alt="" class="w-full">
+                </a>
+                <a href="#" class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3rd-top-shelf@4x.png" alt="" class="w-full">
+                </a>
+                <a href="#" class="bg-gray rounded-2.5xl">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/4th-top-shelf@4x.png" alt="" class="w-full">
+                </a>
             </div>
         </div>
     </div>
@@ -173,11 +173,16 @@
     <div class="container">
         <div class="space-y-7.5">
             <h3 class="section-heading">Mad Merch</h3>
-            <div class="overflow-x-auto scroll-container lg:overflow-x-hidden">
+            <?php if(wp_is_mobile()){
+                get_template_part('template-parts/product-normal-card-wrapper', null, array('scrollView' => true));
+            } else{
+                get_template_part('template-parts/product-normal-card-wrapper', null, array('desktopGridCol' => 4));
+            } ?>
+            <!-- <div class="overflow-x-auto scroll-container lg:overflow-x-hidden">
                 <div class="grid grid-flow-col auto-cols-max gap-3.75 pb-5">
-                    <?php get_template_part('template-parts/product-card-normal'); ?>
+                    <?php //get_template_part('template-parts/product-card-normal'); ?>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

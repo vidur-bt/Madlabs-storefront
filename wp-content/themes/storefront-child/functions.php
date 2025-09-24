@@ -1,7 +1,7 @@
 <?php
 
 function madlabs_enqueue_styles() {
-    wp_enqueue_style( 'madlabs-style', get_stylesheet_directory_uri() . '/assets/styles/output.css', array() );
+    wp_enqueue_style( 'madlabs-style', get_stylesheet_directory_uri() . '/assets/styles/output.css', array(), filemtime( get_stylesheet_directory() . '/assets/styles/output.css' ) );
     wp_enqueue_style( 'splide-min-css', get_stylesheet_directory_uri() . '/assets/styles/splide.min.css', array() );
 }
 add_action( 'wp_enqueue_scripts', 'madlabs_enqueue_styles' );

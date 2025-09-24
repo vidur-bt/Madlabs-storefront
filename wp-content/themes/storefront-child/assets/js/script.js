@@ -34,7 +34,6 @@ if (window.innerWidth < 1024) {
       targetElement?.classList.add("mobile-menu-bar-icon-row-scrolled");
       header?.classList.remove("bg-transparent");
       header?.classList.add("bg-black");
-      console.log(header);
     } else {
       targetElement?.classList.remove("mobile-menu-bar-icon-row-scrolled");
       header?.classList.remove("bg-black");
