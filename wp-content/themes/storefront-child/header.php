@@ -75,13 +75,19 @@
 
             <!-- Desktop Navigation -->
             <nav class="hidden lg:flex items-center space-x-14">
-                <a href="#" class="text-white text-xs hover:opacity-80 font-black">HOMEPAGE</a>
-                <a href="#" class="text-white text-xs hover:opacity-80 font-light">PRODUCTS</a>
-                <a href="#" class="text-white text-xs hover:opacity-80 font-light">MERCH</a>
-                <a href="#" class="text-white text-xs hover:opacity-80 font-light">BLOG</a>
-                <a href="#" class="text-white text-xs hover:opacity-80 font-light">FIND US</a>
-                <a href="#" class="text-white text-xs hover:opacity-80 font-light">CONTACTS</a>
+               
+                        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'primary-menu', // The location slug you registered
+            'menu_id'        => 'primary-menu', 
+            'container'      => 'nav',          
+            'container_class'=> 'header-navigation', 
+        ) );
+        ?>
+
             </nav>
+
+            
 
             <!-- Desktop Search & Cart -->
             <div class="hidden lg:flex items-center space-x-4">

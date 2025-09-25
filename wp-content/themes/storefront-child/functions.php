@@ -44,6 +44,19 @@ function madlabs_enqueue_scripts() {
 add_action('wp_enqueue_scripts', 'madlabs_enqueue_scripts');
 
 
+
+function madlabs_register_menus() {
+    register_nav_menus(
+        array(
+            'primary-menu' => __( 'Main Navigation' ),  
+        )
+    );
+}
+add_action( 'init', 'madlabs_register_menus' );
+
+
+
+
 function custom_dequeue_storefront_styles() {
     wp_dequeue_style( 'storefront-style' );
     wp_deregister_style( 'storefront-style' );

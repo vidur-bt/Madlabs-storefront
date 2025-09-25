@@ -10,3 +10,17 @@ Text Domain:	 madlabs-theme
 License:		 GNU General Public License v2 or later
 License URI:	 http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+
+
+/* header Menu CSS */
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu li{
+    font-size: 12px;
+}
