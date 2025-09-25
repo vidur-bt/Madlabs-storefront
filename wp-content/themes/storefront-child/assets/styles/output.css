@@ -931,6 +931,10 @@
   .text-sm-2 {
     font-size: var(--text-sm-2);
   }
+  .leading-13 {
+    --tw-leading: var(--leading-13);
+    line-height: var(--leading-13);
+  }
   .leading-\[21px\] {
     --tw-leading: 21px;
     line-height: 21px;
@@ -985,6 +989,9 @@
   }
   .text-darker-gray {
     color: var(--color-darker-gray);
+  }
+  .text-gray-2 {
+    color: var(--color-gray-2);
   }
   .text-white {
     color: var(--color-white);
@@ -1074,6 +1081,16 @@
   .\*\:text-white {
     :is(& > *) {
       color: var(--color-white);
+    }
+  }
+  .group-\[\.active\]\:hidden {
+    &:is(:where(.group):is(.active) *) {
+      display: none;
+    }
+  }
+  .group-\[\.active\]\:text-darker-gray {
+    &:is(:where(.group):is(.active) *) {
+      color: var(--color-darker-gray);
     }
   }
   .placeholder\:font-display {
@@ -1229,6 +1246,16 @@
       transition-timing-function: var(--ease-in);
     }
   }
+  .md\:grid-cols-3 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-4 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
   .lg\:absolute {
     @media (width >= 64rem) {
       position: absolute;
@@ -1377,6 +1404,16 @@
   .lg\:w-\[167px\] {
     @media (width >= 64rem) {
       width: 167px;
+    }
+  }
+  .lg\:w-\[255px\] {
+    @media (width >= 64rem) {
+      width: 255px;
+    }
+  }
+  .lg\:w-\[267px\] {
+    @media (width >= 64rem) {
+      width: 267px;
     }
   }
   .lg\:max-w-\[336px\] {
@@ -1718,6 +1755,11 @@
     --tw-tracking: var(--tracking-negative);
     letter-spacing: var(--tracking-negative);
     color: var(--color-white);
+    &:hover {
+      @media (hover: hover) {
+        opacity: 80%;
+      }
+    }
   }
 }
 @layer utilities {

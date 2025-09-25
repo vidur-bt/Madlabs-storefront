@@ -1,11 +1,13 @@
 <?php
 
-$cardWidth = $args['cardWidth'];
+$desktopGridCol = $args['desktopGridCol'] ?? 4;
 $carousel = $args['carousel'] ?? false;
+
+$desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
 
 ?>
 
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -29,7 +31,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -53,7 +55,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -77,7 +79,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -101,7 +103,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -125,7 +127,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -149,7 +151,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
@@ -173,7 +175,7 @@ $carousel = $args['carousel'] ?? false;
         </div>
     </div>
 </div>
-<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>

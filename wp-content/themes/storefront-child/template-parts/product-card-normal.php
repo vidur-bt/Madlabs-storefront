@@ -1,10 +1,11 @@
 <?php
 
-$cardWidth = $args['cardWidth'];
+$desktopGridCol = $args['desktopGridCol'] ?? 4;
+$desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
 
 ?>
 
-<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/metal-logo-tshirt@4x.png" alt="" class="w-[120px] h-[130px] lg:w-[167px] lg:h-[181px] object-contain">
     </div>
@@ -22,7 +23,7 @@ $cardWidth = $args['cardWidth'];
         </div>
     </div>
 </div>
-<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/est-tshirt@4x.png" alt="" class="w-[120px] h-[130px] lg:w-[167px] lg:h-[181px] object-contain">
     </div>
@@ -40,7 +41,7 @@ $cardWidth = $args['cardWidth'];
         </div>
     </div>
 </div>
-<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/melting-tshirt@4x.png" alt="" class="w-[120px] h-[130px] lg:w-[167px] lg:h-[181px] object-contain">
     </div>
@@ -58,7 +59,7 @@ $cardWidth = $args['cardWidth'];
         </div>
     </div>
 </div>
-<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] lg:w-<?php echo $cardWidth; ?>">
+<div class="bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
     <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-11 lg:pb-9">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ny-tshirt@4x.png" alt="" class="w-[120px] h-[130px] lg:w-[167px] lg:h-[181px] object-contain">
     </div>

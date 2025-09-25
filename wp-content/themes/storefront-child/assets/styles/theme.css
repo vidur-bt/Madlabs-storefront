@@ -86,7 +86,7 @@
         @apply font-sans text-lg-2 lg:text-[2rem] text-center leading-[1.72] font-semibold text-black;
     }
     .black-btn-big{
-        @apply bg-black py-4 px-4.5 min-w-[255px] h-[58px] rounded-full flex justify-center items-center text-center text-white text-lg font-bold tracking-negative leading-[19px];
+        @apply bg-black py-4 px-4.5 min-w-[255px] h-[58px] rounded-full flex justify-center items-center text-center text-white text-lg font-bold tracking-negative leading-[19px] hover:opacity-80;
     }
 }
 

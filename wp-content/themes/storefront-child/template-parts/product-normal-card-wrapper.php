@@ -12,7 +12,7 @@ $cardWidth = $args['cardWidth'] ?? '[255px]';
 <?php if($scrollView){ ?>
     <div class="overflow-x-auto scroll-container lg:overflow-x-hidden">
         <div class="grid grid-flow-col auto-cols-max gap-3.75 pb-5">
-            <?php get_template_part('template-parts/product-card-normal', null, array('cardWidth' => $cardWidth)); ?>
+            <?php get_template_part('template-parts/product-card-normal', null); ?>
         </div>
     </div>
 <?php //} else if($carousel) { ?>
@@ -24,7 +24,13 @@ $cardWidth = $args['cardWidth'] ?? '[255px]';
         </div>
     </section> -->
 <?php } else { ?>
-    <div class="grid grid-cols-2 md:grid-cols-<?php echo $desktopGridCol; ?> gap-<?php echo $gridGap; ?> pb-5">
-        <?php get_template_part('template-parts/product-card-normal', null, array('cardWidth' => $cardWidth)); ?>
+    <?php if($desktopGridCol === 3){ ?>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-[21px] pb-5">
+        <?php get_template_part('template-parts/product-card-normal', null, array('desktopGridCol' => $desktopGridCol)); ?>
     </div>
+    <?php } else if($desktopGridCol === 4){ ?>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3.75 pb-5">
+            <?php get_template_part('template-parts/product-card-normal', null, array('desktopGridCol' => $desktopGridCol)); ?>
+        </div>
+    <?php } ?>
 <?php } ?>
