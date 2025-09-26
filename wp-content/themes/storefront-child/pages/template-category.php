@@ -29,7 +29,9 @@ get_header();
 </section>
 
 <!-- shop section -->
-<?php get_template_part('template-parts/shop-section-wrapper', null); ?>
+ <div class="pb-[86px]">
+    <?php get_template_part('template-parts/shop-section-wrapper', null, array('page' => 'category')); ?>
+ </div>
 
 
 <?php get_footer(); ?>
