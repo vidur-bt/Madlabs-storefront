@@ -8,11 +8,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
 ?>
 
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -32,11 +32,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -56,11 +56,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -80,11 +80,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -104,11 +104,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -128,11 +128,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-2@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -152,11 +152,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
@@ -176,11 +176,11 @@ $desktopGridColClass = $desktopGridCol === 3 ? 'lg:w-[267px]' : 'lg:w-[255px]';
     </div>
 </div>
 <div class="<?php echo $carousel ? 'splide__slide' : ''; ?> bg-white rounded-2.5xl overflow-hidden border-2 border-gray-2 w-[169px] <?php echo $desktopGridColClass; ?>">
-    <div class="bg-gray px-[25px] pt-[26px] pb-[25px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[118px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
+    <div class="bg-gray px-[43px] pt-[21px] pb-[20px] lg:px-11 lg:pt-[61px] lg:pb-[56px]">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/best-seller-3@4x.png" alt="" class="w-[88px] h-[108px] lg:w-[107px] lg:h-[143px] object-contain mx-auto">
     </div>
-    <div class="pt-0.5 pr-3.5 pb-3.5 pl-4.5 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
-        <div class="flex mb-3.5">
+    <div class="pt-1.5 pr-3.5 pb-[13px] pl-4 lg:pt-3 lg:pr-4.5 lg:pb-[13px] lg:pl-5">
+        <div class="flex max-lg:justify-center items-center mb-1.5 lg:mb-3.5 max-lg:*:w-[13px] max-lg:*:h-[13px]">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/icons/star_filled.svg" alt="">

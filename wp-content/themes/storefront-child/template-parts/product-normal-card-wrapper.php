@@ -25,11 +25,11 @@ $cardWidth = $args['cardWidth'] ?? '[255px]';
     </section> -->
 <?php } else { ?>
     <?php if($desktopGridCol === 3){ ?>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-[21px] pb-5">
+    <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-3 gap-[21px] pb-5">
         <?php get_template_part('template-parts/product-card-normal', null, array('desktopGridCol' => $desktopGridCol)); ?>
     </div>
     <?php } else if($desktopGridCol === 4){ ?>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-3.75 pb-5">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.75 pb-5">
             <?php get_template_part('template-parts/product-card-normal', null, array('desktopGridCol' => $desktopGridCol)); ?>
         </div>
     <?php } ?>
