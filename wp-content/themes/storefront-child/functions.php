@@ -64,5 +64,15 @@ add_action( 'wp_enqueue_scripts', function() {
 
 remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
 
+// function enqueue_tailwind() {
+//     wp_enqueue_style( 
+//         'tailwindcss', 
+//         'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css', 
+//         array(), 
+//         null 
+//     );
+// }
+// add_action('wp_enqueue_scripts', 'enqueue_tailwind');
+
 
 ?>

@@ -54,3 +54,130 @@
         background-color: rgb(242 242 242 / 50%);
     }
 }
+
+
+
+/* CF7 Forms */
+
+/* .custom-form { */
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
+  /* margin: 20px 0px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #919191;
+  font-weight: 300;
+}
+
+.custom-form label span {
+  color: red;
+  margin-left: 3px;
+}
+
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #E5E5E5;
+  font-size: 16px;
+  resize: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.custom-form .form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.custom-form .form-row .form-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.custom-form input,
+.custom-form textarea {
+  color: #000;
+}
+
+
+.custom-form ::placeholder {
+  color: #666;
+}
+
+
+
+@media (max-width: 600px) {
+  .custom-form .form-row {
+    flex-direction: column;
+    gap: 0px;
+  }
+} */
+
+
+.custom-form {
+  margin: 20px 0px;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* safety against overflow */
+}
+
+.custom-form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #919191;
+  font-weight: 300;
+}
+
+.custom-form label span {
+  color: red;
+  margin-left: 3px;
+}
+
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #E5E5E5;
+  font-size: 16px;
+  resize: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+.custom-form .form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap; /* never wrap */
+}
+
+.custom-form .form-row .form-group {
+  flex: 1 1 50%;  /* always take half width each */
+  min-width: 0;   /* prevents overflow */
+}
+
+.custom-form ::placeholder {
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .custom-form label {
+  font-size: 15px;
+}
+}
+
+
+/* CF7 from end */
