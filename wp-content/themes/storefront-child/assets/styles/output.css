@@ -1174,6 +1174,10 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .tracking-\[-1\.08px\] {
+    --tw-tracking: -1.08px;
+    letter-spacing: -1.08px;
+  }
   .tracking-\[-1px\] {
     --tw-tracking: -1px;
     letter-spacing: -1px;
