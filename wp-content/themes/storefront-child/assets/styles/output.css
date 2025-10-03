@@ -876,6 +876,9 @@
   .bg-gray {
     background-color: var(--color-gray);
   }
+  .bg-gray-2 {
+    background-color: var(--color-gray-2);
+  }
   .bg-transparent {
     background-color: transparent;
   }
