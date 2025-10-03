@@ -36,7 +36,6 @@ get_header();
         <!-- Main layout -->
         <div class="flex items-start space-x-0 md:space-x-6 w-[-webkit-fill-available] justify-center sm:justify-start">
 
-
             <!-- Sidebar -->
             <aside class="rounded-l-[12px] border border-gray-200 bg-white
                 w-auto lg:w-[267px] lg:h-[607px] h-auto overflow-hidden flex flex-col mr-0">

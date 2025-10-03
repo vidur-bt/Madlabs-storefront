@@ -61,8 +61,9 @@
 
 .custom-form {
   margin: 20px 0px;
-  font-family: Arial, sans-serif;
   overflow: hidden; 
+  padding-right: 4px;
+  margin-top: 21px;
 }
 
 .custom-form label {
@@ -83,7 +84,7 @@
   width: 100%;
   padding: 11px;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   background: #E5E5E5;
   font-size: 16px;
   resize: none;
@@ -91,12 +92,21 @@
   margin-bottom: 15px;
   box-sizing: border-box;
   color: #000;
+  outline: 0;
 }
 
 .custom-form .form-row {
   display: flex;
-  gap: 15px;
-  flex-wrap: nowrap; 
+  /* gap: 15px; */
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+}
+
+.custom-form .form-row>.form-group-name{
+  margin-right: 20px;
+}
+.custom-form>.form-group-email{
+  margin-bottom: 16px;
 }
 
 .custom-form .form-row .form-group {
@@ -109,8 +119,27 @@
 }
 
 @media (max-width: 600px) {
+  .custom-form{
+    padding: 1px;
+  }
   .custom-form label {
   font-size: 15px;
+}
+
+.custom-form .form-row>.form-group-name{
+  margin-right: 6px;
+}
+
+.custom-form input{
+  margin-bottom: 14px;
+}
+
+.form-group>p>label>span>input{
+  padding: 4.5px 11px;
+}
+
+.wpcf7-form-control-wrap{
+  margin-left: 0 !important;
 }
 }
 
